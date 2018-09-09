@@ -11,9 +11,8 @@ include("auth.php");
 <body>
 <div class="form">
 <p>Welcome <?php echo $_SESSION['username']; ?>!</p>
-<p>This is secure area.</p>
-<p><a href="dash.php">Dashboard</a></p>
-<a href="logout.php">Logout</a>
+<p>I want to see a <a href="dash.php">potato</a> </p>
+<a href="logout.php">Bye</a>
 </div>
 </body>
 </html>
