@@ -1,5 +1,5 @@
 <?php
-require('connection.php');
+require('config.php');
 include("auth.php");
 ?>
 <!DOCTYPE html>

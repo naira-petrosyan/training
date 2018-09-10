@@ -1,9 +1,9 @@
 <?php
-session_start();
+require('config.php');
 // Destroying All Sessions
-if(session_destroy())
-{
+session_destroy();
+session_unset();
 // Redirecting To Home Page
 header("Location: login.php");
-}
-?>
+
+die;
